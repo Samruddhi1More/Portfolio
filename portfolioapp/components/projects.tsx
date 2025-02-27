@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { ExternalLink, Github, Eye } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 const projects = [
   {
@@ -87,7 +88,9 @@ export default function Projects() {
                 className="bg-secondary/30 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg border border-primary/20 card-hover"
               >
                 <div className="relative h-48 overflow-hidden">
-                  <img
+                  <Image
+                    width={500}
+                    height={300}
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"

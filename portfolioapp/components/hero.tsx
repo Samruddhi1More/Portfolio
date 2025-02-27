@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { ArrowDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function Hero() {
   return (
@@ -73,7 +74,9 @@ export default function Hero() {
           <motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 300 }} className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-pink-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/50 relative z-10">
-              <img
+              <Image
+                width={500}
+                height={500}  
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Personal%20photo.jpg-kiURXHyX5WYVd2cfP8L1y6U6PjqRuP.jpeg"
                 alt="Samruddhi More"
                 className="w-full h-full object-cover"
