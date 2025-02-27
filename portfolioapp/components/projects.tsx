@@ -18,7 +18,7 @@ const projects = [
       "Leveraged AWS EC2 for deploying and scaling the application.",
       "Built a centralized dashboard to monitor alerts, review incidents, and manage real-time video streams.",
     ],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/placeholder.svg",
   },
   {
     title: "Multilingual Customer Support Chatbot",
@@ -31,7 +31,7 @@ const projects = [
       "Designed mechanisms for handling out-of-scope queries with polite responses.",
       "Built DRF endpoints for seamless user interaction and conversation management.",
     ],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/placeholder.svg",
   },
   {
     title: "Defect Classification System",
@@ -43,7 +43,7 @@ const projects = [
       "Reported model performance metrics to clients.",
       "Oversaw model improvement and retraining processes.",
     ],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/placeholder.svg",
   },
 ]
 

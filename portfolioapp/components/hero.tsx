@@ -77,7 +77,7 @@ export default function Hero() {
               <Image
                 width={500}
                 height={500}  
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Personal%20photo.jpg-kiURXHyX5WYVd2cfP8L1y6U6PjqRuP.jpeg"
+                src="/placeholder-user.jpg"
                 alt="Samruddhi More"
                 className="w-full h-full object-cover"
               />
